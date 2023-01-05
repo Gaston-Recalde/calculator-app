@@ -22,7 +22,7 @@ body {
   color: hsl(228deg, 45%, 44%);
 }
 
-main {
+.main {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -31,46 +31,46 @@ main {
   padding: 50px 0;
   background-color: hsl(222deg, 26%, 31%);
 }
-main .header {
+.main .header {
   width: 90%;
   max-width: 450px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-main .header__h1 {
+.main .header__h1 {
   font-weight: 700;
   font-size: 32px;
   color: hsl(0deg, 0%, 100%);
 }
-main .header__themes {
+.main .header__themes {
   display: flex;
   align-items: flex-end;
   gap: 25px;
 }
-main .header__themes .h2 {
+.main .header__themes .h2 {
   color: hsl(0deg, 0%, 100%);
   font-size: 12px;
   letter-spacing: 1.5px;
 }
-main .header__themes .theme {
+.main .header__themes .theme {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 5px;
 }
-main .header__themes .theme p {
+.main .header__themes .theme p {
   font-size: 12px;
   color: hsl(0deg, 0%, 100%);
   letter-spacing: 6.5px;
 }
-main .header__themes .theme .toggle {
+.main .header__themes .theme .toggle {
   width: 75px;
   height: 25px;
   border-radius: 50px;
   background-color: hsl(223deg, 31%, 20%);
 }
-main .header__themes .theme .toggle .button {
+.main .header__themes .theme .toggle .button {
   width: 15px;
   height: 15px;
   border-radius: 50px;
@@ -79,24 +79,24 @@ main .header__themes .theme .toggle .button {
   margin-top: 5px;
   margin-left: 5px;
 }
-main .header__themes .theme .toggle .button:hover {
+.main .header__themes .theme .toggle .button:hover {
   cursor: pointer;
   background-color: hsl(6deg, 63%, 50%);
 }
-main .result {
+.main .result {
   width: 90%;
   max-width: 450px;
   color: hsl(0deg, 0%, 100%);
   background-color: hsl(224deg, 36%, 15%);
   border-radius: 8px;
 }
-main .result__h2 {
+.main .result__h2 {
   font-size: 38px;
   font-weight: 700;
   padding: 25px;
   text-align: right;
 }
-main .buttons {
+.main .buttons {
   width: 90%;
   max-width: 450px;
   background-color: hsl(223deg, 31%, 20%);
@@ -106,7 +106,7 @@ main .buttons {
   gap: 15px;
   grid-template-columns: repeat(4, 1fr);
 }
-main .buttons .button {
+.main .buttons .button {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -117,39 +117,161 @@ main .buttons .button {
   height: 60px;
   box-shadow: 0px 4px hsl(28deg, 16%, 65%);
 }
-main .buttons .button:hover {
+.main .buttons .button:hover {
   cursor: pointer;
   background-color: hsl(0deg, 0%, 100%);
 }
-main .buttons .button:nth-child(4) {
+.main .buttons .button:nth-child(4) {
   font-size: 20px;
   background-color: hsl(225deg, 21%, 49%);
   color: hsl(0deg, 0%, 100%);
   box-shadow: 0px 4px hsl(224deg, 28%, 35%);
 }
-main .buttons .button:nth-child(4):hover {
+.main .buttons .button:nth-child(4):hover {
   cursor: pointer;
   background-color: hsl(225deg, 21%, 65%);
 }
-main .buttons .button:nth-child(17) {
+.main .buttons .button:nth-child(17) {
   grid-column: 1/3;
   font-size: 20px;
   background-color: hsl(225deg, 21%, 49%);
   color: hsl(0deg, 0%, 100%);
   box-shadow: 0px 4px hsl(224deg, 28%, 35%);
 }
-main .buttons .button:nth-child(17):hover {
+.main .buttons .button:nth-child(17):hover {
   cursor: pointer;
   background-color: hsl(225deg, 21%, 65%);
 }
-main .buttons .button:nth-child(18) {
+.main .buttons .button:nth-child(18) {
   grid-column: 3/5;
   font-size: 20px;
   background-color: hsl(6deg, 63%, 50%);
   color: hsl(0deg, 0%, 100%);
   box-shadow: 0px 4px hsl(6deg, 70%, 34%);
 }
-main .buttons .button:nth-child(18):hover {
+.main .buttons .button:nth-child(18):hover {
   cursor: pointer;
   background-color: hsl(6deg, 63%, 60%);
+}
+
+.main-t2 {
+  background-color: hsl(0deg, 0%, 90%);
+}
+.main-t2 .header__h1-t2 {
+  color: hsl(60deg, 10%, 19%);
+}
+.main-t2 .header__themes-t2 .h2 {
+  color: hsl(60deg, 10%, 19%);
+}
+.main-t2 .header__themes-t2 .theme p {
+  color: hsl(60deg, 10%, 19%);
+}
+.main-t2 .header__themes-t2 .theme .toggle {
+  background-color: hsl(0deg, 5%, 81%);
+}
+.main-t2 .header__themes-t2 .theme .toggle .button {
+  background-color: hsl(25deg, 99%, 27%);
+}
+.main-t2 .header__themes-t2 .theme .toggle .button:hover {
+  background-color: hsl(25deg, 98%, 40%);
+}
+.main-t2 .result-t2 {
+  color: hsl(60deg, 10%, 19%);
+  background-color: hsl(0deg, 0%, 100%);
+}
+.main-t2 .buttons-t2 {
+  background-color: hsl(0deg, 5%, 81%);
+}
+.main-t2 .buttons-t2 .button {
+  background-color: hsl(30deg, 25%, 89%);
+  color: hsl(60deg, 10%, 19%);
+  box-shadow: 0px 4px hsl(28deg, 16%, 65%);
+}
+.main-t2 .buttons-t2 .button:hover {
+  background-color: hsl(0deg, 0%, 100%);
+}
+.main-t2 .buttons-t2 .button:nth-child(4) {
+  background-color: hsl(185deg, 42%, 37%);
+  color: hsl(0deg, 0%, 100%);
+  box-shadow: 0px 4px hsl(224deg, 28%, 35%);
+}
+.main-t2 .buttons-t2 .button:nth-child(4):hover {
+  background-color: hsl(185deg, 42%, 47%);
+}
+.main-t2 .buttons-t2 .button:nth-child(17) {
+  background-color: hsl(185deg, 42%, 37%);
+  color: hsl(0deg, 0%, 100%);
+  box-shadow: 0px 4px hsl(185deg, 58%, 25%);
+}
+.main-t2 .buttons-t2 .button:nth-child(17):hover {
+  background-color: hsl(185deg, 42%, 47%);
+}
+.main-t2 .buttons-t2 .button:nth-child(18) {
+  background-color: hsl(25deg, 98%, 40%);
+  color: hsl(0deg, 0%, 100%);
+  box-shadow: 0px 4px hsl(25deg, 99%, 27%);
+}
+.main-t2 .buttons-t2 .button:nth-child(18):hover {
+  background-color: hsl(25deg, 98%, 50%);
+}
+
+.main-t3 {
+  background-color: hsl(268deg, 75%, 9%);
+}
+.main-t3 .header__h1-t3 {
+  color: hsl(52deg, 100%, 62%);
+}
+.main-t3 .header__themes-t3 .h2 {
+  color: hsl(52deg, 100%, 62%);
+}
+.main-t3 .header__themes-t3 .theme p {
+  color: hsl(52deg, 100%, 62%);
+}
+.main-t3 .header__themes-t3 .theme .toggle {
+  background-color: hsl(268deg, 71%, 12%);
+}
+.main-t3 .header__themes-t3 .theme .toggle .button {
+  background-color: hsl(176deg, 100%, 44%);
+}
+.main-t3 .header__themes-t3 .theme .toggle .button:hover {
+  background-color: hsl(177deg, 92%, 70%);
+}
+.main-t3 .result-t3 {
+  color: hsl(52deg, 100%, 62%);
+  background-color: hsl(268deg, 71%, 12%);
+}
+.main-t3 .buttons-t3 {
+  background-color: hsl(268deg, 71%, 12%);
+}
+.main-t3 .buttons-t3 .button {
+  background-color: hsl(281deg, 89%, 26%);
+  color: hsl(52deg, 100%, 62%);
+  box-shadow: 0px 4px hsl(290deg, 70%, 36%);
+}
+.main-t3 .buttons-t3 .button:hover {
+  background-color: hsl(268deg, 47%, 51%);
+}
+.main-t3 .buttons-t3 .button:nth-child(4) {
+  background-color: hsl(290deg, 70%, 36%);
+  color: hsl(0deg, 0%, 100%);
+  box-shadow: 0px 4px hsl(285deg, 91%, 52%);
+}
+.main-t3 .buttons-t3 .button:nth-child(4):hover {
+  background-color: hsl(285deg, 91%, 52%);
+}
+.main-t3 .buttons-t3 .button:nth-child(17) {
+  background-color: hsl(290deg, 70%, 36%);
+  color: hsl(0deg, 0%, 100%);
+  box-shadow: 0px 4px hsl(285deg, 91%, 52%);
+}
+.main-t3 .buttons-t3 .button:nth-child(17):hover {
+  background-color: hsl(285deg, 91%, 52%);
+}
+.main-t3 .buttons-t3 .button:nth-child(18) {
+  background-color: hsl(176deg, 100%, 44%);
+  color: hsl(198deg, 20%, 13%);
+  box-shadow: 0px 4px hsl(177deg, 92%, 70%);
+}
+.main-t3 .buttons-t3 .button:nth-child(18):hover {
+  background-color: hsl(176deg, 100%, 64%);
 }/*# sourceMappingURL=style.css.map */

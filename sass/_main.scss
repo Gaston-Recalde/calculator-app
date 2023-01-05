@@ -1,4 +1,4 @@
-main{
+.main{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -8,6 +8,8 @@ main{
     // margin: 0 auto;
     // height: 100vh;
     background-color: $very-dark-desaturated-blue;
+
+    
 
     .header{
         width: 90%;
@@ -23,6 +25,8 @@ main{
             font-size: 32px;
             color: $white;
         }
+
+        
 
         &__themes{
             display: flex;
@@ -70,6 +74,8 @@ main{
                 }
             }
         }
+
+        
     }
 
     .result{
@@ -86,6 +92,8 @@ main{
             text-align: right;
         }
     }
+
+    
 
     .buttons{
         width: 90%;
@@ -148,6 +156,170 @@ main{
                 &:hover{
                     cursor: pointer;
                     background-color: $red-1;
+                }
+            }
+        }
+    }
+
+    
+}
+
+
+//  Theme 2
+.main-t2{
+    background-color: $light-gray;
+
+    .header{
+        &__h1-t2{
+            color: $very-dark-grayish-yellow;
+        }
+        &__themes-t2{
+            .h2{
+                color: $very-dark-grayish-yellow;
+            }
+            .theme{
+                p{
+                    color: $very-dark-grayish-yellow;
+                }
+
+                .toggle{
+                    background-color: $grayish-red;
+
+                    .button{
+                        background-color: $dark-orange;
+
+                        &:hover{
+                            background-color: $orange;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .result-t2{
+        color: $very-dark-grayish-yellow;
+        background-color: $white;
+    }
+    .buttons-t2{
+        background-color: $grayish-red;
+
+        .button{
+            background-color: $light-grayish-orange;
+            color: $very-dark-grayish-yellow;
+            box-shadow: 0px 4px $grayish-orange;
+
+            &:hover{
+                background-color: $white;
+            }
+
+            &:nth-child(4){
+                background-color: $dark-moderate-cyan;
+                color: $white;
+                box-shadow: 0px 4px $desaturated-dark-blue-2;
+
+                &:hover{
+                    background-color: $dark-moderate-cyan-2;
+                }
+            }
+
+            &:nth-child(17){
+                background-color: $dark-moderate-cyan;
+                color: $white;
+                box-shadow: 0px 4px $very-dark-cyan;
+
+                &:hover{
+                    background-color: $dark-moderate-cyan-2;
+                }
+            }
+
+            &:nth-child(18){
+                background-color: $orange;
+                color: $white;
+                box-shadow: 0px 4px $dark-orange;
+
+                &:hover{
+                    background-color: $orange-2;
+                }
+            }
+        }
+    }
+}
+
+
+// Theme 3
+.main-t3{
+    background-color: $very-dark-violet;
+
+    .header{
+        &__h1-t3{
+            color: $light-yellow;
+        }
+        &__themes-t3{
+            .h2{
+                color: $light-yellow;
+            }
+            .theme{
+                p{
+                    color: $light-yellow;
+                }
+
+                .toggle{
+                    background-color: $very-dark-violet-2;
+
+                    .button{
+                        background-color: $pure-cyan;
+
+                        &:hover{
+                            background-color: $soft-cyan;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .result-t3{
+        color: $light-yellow;
+        background-color: $very-dark-violet-2;
+    }
+    .buttons-t3{
+        background-color: $very-dark-violet-2;
+
+        .button{
+            background-color: $dark-violet;
+            color: $light-yellow;
+            box-shadow: 0px 4px $dark-magenta;
+
+            &:hover{
+                background-color: $very-dark-violet-4;
+            }
+
+            &:nth-child(4){
+                background-color: $dark-magenta;
+                color: $white;
+                box-shadow: 0px 4px $vivid-magenta;
+
+                &:hover{
+                    background-color: $vivid-magenta;
+                }
+            }
+
+            &:nth-child(17){
+                background-color: $dark-magenta;
+                color: $white;
+                box-shadow: 0px 4px $vivid-magenta;
+
+                &:hover{
+                    background-color: $vivid-magenta;
+                }
+            }
+
+            &:nth-child(18){
+                background-color: $pure-cyan;
+                color: $very-dark-blue;
+                box-shadow: 0px 4px $soft-cyan;
+
+                &:hover{
+                    background-color: $pure-cyan-2;
                 }
             }
         }
