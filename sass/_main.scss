@@ -1,0 +1,155 @@
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    padding: 50px 0;
+    // margin: 0 auto;
+    // height: 100vh;
+    background-color: $very-dark-desaturated-blue;
+
+    .header{
+        width: 90%;
+        max-width: 450px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        // border: 1px solid lightblue;
+
+        &__h1{
+            font-weight: 700;
+            font-size: 32px;
+            color: $white;
+        }
+
+        &__themes{
+            display: flex;
+            // flex-direction: row;
+            align-items: flex-end;
+            gap:  25px;
+            .h2{
+                color: $white;
+                font-size: 12px;
+                letter-spacing: 1.5px;
+            }
+
+            .theme{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 5px;
+                p{
+                    font-size: 12px;
+                    color: $white;
+                    letter-spacing: 6.5px;
+                }
+
+                .toggle{
+                    width: 75px;
+                    height: 25px;
+                    border-radius: 50px;
+                    background-color: $very-dark-desaturated-blue-2;
+
+                    .button{
+                        width: 15px;
+                        height: 15px;
+                        border-radius: 50px;
+                        // padding: 5px;
+                        background-color: $dark-red;
+                        display: inline-block;
+                        margin-top: 5px;
+                        margin-left: 5px;
+
+                        &:hover{
+                            cursor: pointer;
+                            background-color: $red;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .result{
+        width: 90%;
+        max-width: 450px;
+        color: $white;
+        background-color: $very-dark-desaturated-blue-3;
+        border-radius: 8px;
+
+        &__h2{
+            font-size: 38px;
+            font-weight: 700;
+            padding: 25px;
+            text-align: right;
+        }
+    }
+
+    .buttons{
+        width: 90%;
+        max-width: 450px;
+        background-color: $very-dark-desaturated-blue-2;
+        padding: 25px;
+        border-radius: 8px;
+        display: grid;
+        gap: 15px;
+        grid-template-columns: repeat(4, 1fr);
+
+        .button{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 32px;
+            border-radius: 5px;
+            background-color: $light-grayish-orange;
+            color: $very-dark-grayish-blue-4;
+            height: 60px;
+            box-shadow: 0px 4px $grayish-orange;
+
+            &:hover{
+                cursor: pointer;
+                background-color: $white;
+            }
+
+            &:nth-child(4){
+                font-size: 20px;
+                background-color: $desaturated-dark-blue;
+                color: $white;
+                box-shadow: 0px 4px $desaturated-dark-blue-2;
+
+                &:hover{
+                    cursor: pointer;
+                    background-color: $desaturated-dark-blue-1;
+                }
+            }
+
+            &:nth-child(17){
+                grid-column: 1 / 3;
+                font-size: 20px;
+                background-color: $desaturated-dark-blue;
+                color: $white;
+                box-shadow: 0px 4px $desaturated-dark-blue-2;
+
+                &:hover{
+                    cursor: pointer;
+                    background-color: $desaturated-dark-blue-1;
+                }
+            }
+
+            &:nth-child(18){
+                grid-column: 3 / 5;
+                font-size: 20px;
+                background-color: $red;
+                color: $white;
+                box-shadow: 0px 4px $dark-red;
+
+                &:hover{
+                    cursor: pointer;
+                    background-color: $red-1;
+                }
+            }
+        }
+    }
+}

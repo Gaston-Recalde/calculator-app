@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "League Spartan", sans-serif;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228deg, 45%, 44%);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  padding: 50px 0;
+  background-color: hsl(222deg, 26%, 31%);
+}
+main .header {
+  width: 90%;
+  max-width: 450px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .header__h1 {
+  font-weight: 700;
+  font-size: 32px;
+  color: hsl(0deg, 0%, 100%);
+}
+main .header__themes {
+  display: flex;
+  align-items: flex-end;
+  gap: 25px;
+}
+main .header__themes .h2 {
+  color: hsl(0deg, 0%, 100%);
+  font-size: 12px;
+  letter-spacing: 1.5px;
+}
+main .header__themes .theme {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+main .header__themes .theme p {
+  font-size: 12px;
+  color: hsl(0deg, 0%, 100%);
+  letter-spacing: 6.5px;
+}
+main .header__themes .theme .toggle {
+  width: 75px;
+  height: 25px;
+  border-radius: 50px;
+  background-color: hsl(223deg, 31%, 20%);
+}
+main .header__themes .theme .toggle .button {
+  width: 15px;
+  height: 15px;
+  border-radius: 50px;
+  background-color: hsl(6deg, 70%, 34%);
+  display: inline-block;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+main .header__themes .theme .toggle .button:hover {
+  cursor: pointer;
+  background-color: hsl(6deg, 63%, 50%);
+}
+main .result {
+  width: 90%;
+  max-width: 450px;
+  color: hsl(0deg, 0%, 100%);
+  background-color: hsl(224deg, 36%, 15%);
+  border-radius: 8px;
+}
+main .result__h2 {
+  font-size: 38px;
+  font-weight: 700;
+  padding: 25px;
+  text-align: right;
+}
+main .buttons {
+  width: 90%;
+  max-width: 450px;
+  background-color: hsl(223deg, 31%, 20%);
+  padding: 25px;
+  border-radius: 8px;
+  display: grid;
+  gap: 15px;
+  grid-template-columns: repeat(4, 1fr);
+}
+main .buttons .button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  border-radius: 5px;
+  background-color: hsl(30deg, 25%, 89%);
+  color: hsl(221deg, 14%, 31%);
+  height: 60px;
+  box-shadow: 0px 4px hsl(28deg, 16%, 65%);
+}
+main .buttons .button:hover {
+  cursor: pointer;
+  background-color: hsl(0deg, 0%, 100%);
+}
+main .buttons .button:nth-child(4) {
+  font-size: 20px;
+  background-color: hsl(225deg, 21%, 49%);
+  color: hsl(0deg, 0%, 100%);
+  box-shadow: 0px 4px hsl(224deg, 28%, 35%);
+}
+main .buttons .button:nth-child(4):hover {
+  cursor: pointer;
+  background-color: hsl(225deg, 21%, 65%);
+}
+main .buttons .button:nth-child(17) {
+  grid-column: 1/3;
+  font-size: 20px;
+  background-color: hsl(225deg, 21%, 49%);
+  color: hsl(0deg, 0%, 100%);
+  box-shadow: 0px 4px hsl(224deg, 28%, 35%);
+}
+main .buttons .button:nth-child(17):hover {
+  cursor: pointer;
+  background-color: hsl(225deg, 21%, 65%);
+}
+main .buttons .button:nth-child(18) {
+  grid-column: 3/5;
+  font-size: 20px;
+  background-color: hsl(6deg, 63%, 50%);
+  color: hsl(0deg, 0%, 100%);
+  box-shadow: 0px 4px hsl(6deg, 70%, 34%);
+}
+main .buttons .button:nth-child(18):hover {
+  cursor: pointer;
+  background-color: hsl(6deg, 63%, 60%);
+}/*# sourceMappingURL=style.css.map */
