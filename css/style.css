@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  border: none;
 }
 
 html {
@@ -10,6 +11,10 @@ html {
 }
 
 body {
+  font-family: "League Spartan", sans-serif;
+}
+
+button {
   font-family: "League Spartan", sans-serif;
 }
 
@@ -62,15 +67,17 @@ body {
 .main .header__themes .theme p {
   font-size: 12px;
   color: hsl(0deg, 0%, 100%);
-  letter-spacing: 6.5px;
+  letter-spacing: 6px;
+  text-align: center;
+  margin-left: 5px;
 }
 .main .header__themes .theme .toggle {
-  width: 75px;
+  width: 65px;
   height: 25px;
   border-radius: 50px;
   background-color: hsl(223deg, 31%, 20%);
 }
-.main .header__themes .theme .toggle .button {
+.main .header__themes .theme .toggle .button-1 {
   width: 15px;
   height: 15px;
   border-radius: 50px;
@@ -79,9 +86,35 @@ body {
   margin-top: 5px;
   margin-left: 5px;
 }
-.main .header__themes .theme .toggle .button:hover {
+.main .header__themes .theme .toggle .button-1:hover {
   cursor: pointer;
   background-color: hsl(6deg, 63%, 50%);
+}
+.main .header__themes .theme .toggle .button-2 {
+  display: none;
+  width: 15px;
+  height: 15px;
+  border-radius: 50px;
+  margin-left: 23px;
+  background-color: hsl(25deg, 99%, 27%);
+  margin-top: 5px;
+}
+.main .header__themes .theme .toggle .button-2:hover {
+  cursor: pointer;
+  background-color: hsl(25deg, 98%, 40%);
+}
+.main .header__themes .theme .toggle .button-3 {
+  display: none;
+  width: 15px;
+  height: 15px;
+  border-radius: 50px;
+  margin-left: 45px;
+  background-color: hsl(176deg, 100%, 44%);
+  margin-top: 5px;
+}
+.main .header__themes .theme .toggle .button-3:hover {
+  cursor: pointer;
+  background-color: hsl(177deg, 92%, 70%);
 }
 .main .result {
   width: 90%;
@@ -169,12 +202,6 @@ body {
 .main-t2 .header__themes-t2 .theme .toggle {
   background-color: hsl(0deg, 5%, 81%);
 }
-.main-t2 .header__themes-t2 .theme .toggle .button {
-  background-color: hsl(25deg, 99%, 27%);
-}
-.main-t2 .header__themes-t2 .theme .toggle .button:hover {
-  background-color: hsl(25deg, 98%, 40%);
-}
 .main-t2 .result-t2 {
   color: hsl(60deg, 10%, 19%);
   background-color: hsl(0deg, 0%, 100%);
@@ -229,12 +256,6 @@ body {
 }
 .main-t3 .header__themes-t3 .theme .toggle {
   background-color: hsl(268deg, 71%, 12%);
-}
-.main-t3 .header__themes-t3 .theme .toggle .button {
-  background-color: hsl(176deg, 100%, 44%);
-}
-.main-t3 .header__themes-t3 .theme .toggle .button:hover {
-  background-color: hsl(177deg, 92%, 70%);
 }
 .main-t3 .result-t3 {
   color: hsl(52deg, 100%, 62%);

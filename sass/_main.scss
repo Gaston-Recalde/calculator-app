@@ -47,16 +47,19 @@
                 p{
                     font-size: 12px;
                     color: $white;
-                    letter-spacing: 6.5px;
+                    letter-spacing: 6px;
+                    // width: 100%;
+                    text-align: center;
+                    margin-left: 5px;
                 }
 
                 .toggle{
-                    width: 75px;
+                    width: 65px;
                     height: 25px;
                     border-radius: 50px;
                     background-color: $very-dark-desaturated-blue-2;
 
-                    .button{
+                    .button-1{
                         width: 15px;
                         height: 15px;
                         border-radius: 50px;
@@ -70,6 +73,39 @@
                             cursor: pointer;
                             background-color: $red;
                         }
+                    }
+
+                    .button-2{
+                        display: none;
+
+                        width: 15px;
+                        height: 15px;
+                        border-radius: 50px;
+                        margin-left: 23px;
+                        background-color: $dark-orange;
+                        margin-top: 5px;
+
+                        &:hover{
+                            cursor: pointer;
+                            background-color: $orange;
+                        }
+                    }
+
+                    .button-3{
+                        display: none;
+    
+                        width: 15px;
+                        height: 15px;
+                        border-radius: 50px;
+                        margin-left: 45px;
+                        background-color: $pure-cyan;
+                        margin-top: 5px;
+    
+                        &:hover{
+                            cursor: pointer;
+                            background-color: $soft-cyan;
+                        }
+                    
                     }
                 }
             }
@@ -185,13 +221,14 @@
                 .toggle{
                     background-color: $grayish-red;
 
-                    .button{
-                        background-color: $dark-orange;
+                    // .button-2{
+                    //     margin-left: 25px;
+                    //     background-color: $dark-orange;
 
-                        &:hover{
-                            background-color: $orange;
-                        }
-                    }
+                    //     &:hover{
+                    //         background-color: $orange;
+                    //     }
+                    // }
                 }
             }
         }
@@ -266,13 +303,14 @@
                 .toggle{
                     background-color: $very-dark-violet-2;
 
-                    .button{
-                        background-color: $pure-cyan;
+                    // .button-3{
+                    //     margin-left: 55px;
+                    //     background-color: $pure-cyan;
 
-                        &:hover{
-                            background-color: $soft-cyan;
-                        }
-                    }
+                    //     &:hover{
+                    //         background-color: $soft-cyan;
+                    //     }
+                    // }
                 }
             }
         }
