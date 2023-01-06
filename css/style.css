@@ -119,6 +119,7 @@ button {
 .main .result {
   width: 90%;
   max-width: 450px;
+  height: 85px;
   color: hsl(0deg, 0%, 100%);
   background-color: hsl(224deg, 36%, 15%);
   border-radius: 8px;
