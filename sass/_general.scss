@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     border: none;
+    text-decoration: none;
 }
 
 html{
@@ -13,13 +14,8 @@ html{
 
 body{
     font-family: 'League Spartan', sans-serif;
-
-    // Number - Font size (numbers): 32px
 }
 
 button{
     font-family: 'League Spartan', sans-serif;
 }
-
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }

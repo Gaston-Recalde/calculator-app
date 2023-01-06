@@ -4,6 +4,7 @@
   padding: 0;
   box-sizing: border-box;
   border: none;
+  text-decoration: none;
 }
 
 html {
@@ -18,16 +19,9 @@ button {
   font-family: "League Spartan", sans-serif;
 }
 
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-
-.attribution a {
-  color: hsl(228deg, 45%, 44%);
-}
-
 .main {
+  min-height: 100vh;
+  max-height: 1024px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -187,6 +181,13 @@ button {
   cursor: pointer;
   background-color: hsl(6deg, 63%, 60%);
 }
+.main .attribution {
+  font-size: 12px;
+  text-align: center;
+}
+.main .attribution a {
+  color: white;
+}
 
 .main-t2 {
   background-color: hsl(0deg, 0%, 90%);
@@ -242,6 +243,9 @@ button {
 .main-t2 .buttons-t2 .button:nth-child(18):hover {
   background-color: hsl(25deg, 98%, 50%);
 }
+.main-t2 .attribution a {
+  color: blue;
+}
 
 .main-t3 {
   background-color: hsl(268deg, 75%, 9%);
@@ -296,4 +300,7 @@ button {
 }
 .main-t3 .buttons-t3 .button:nth-child(18):hover {
   background-color: hsl(176deg, 100%, 64%);
+}
+.main-t3 .attribution {
+  color: yellow;
 }/*# sourceMappingURL=style.css.map */
